@@ -23,7 +23,7 @@ def run_bot(r, commentsReplied):
 			for move in marthmoves:
 				if move in comment.body and comment.id not in commentsReplied and comment.author != r.user.me():
 					print("move found")
-					file=open("marth/"(move+".txt"),"r")
+					file=open("marth/"+move+".txt","r")
 					comment.reply(file.read())
 					file.close
 					break
