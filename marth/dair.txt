@@ -1,0 +1,5 @@
+Total: 59
+Hit: 6-9
+Auto cancel: <5 48>
+Landlag: 32
+Lcanceled: 16

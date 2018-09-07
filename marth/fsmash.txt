@@ -1,0 +1,4 @@
+Total: 49
+Hit: 10-13
+Charge frame: 3
+IASA: 48

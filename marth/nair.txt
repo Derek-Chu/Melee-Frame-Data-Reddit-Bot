@@ -1,0 +1,5 @@
+Total: 49
+Hit: 6-7, 15-21
+Auto cancel: <5 25>
+Landlag: 15
+Lcanceled: 7

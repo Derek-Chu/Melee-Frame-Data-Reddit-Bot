@@ -1,0 +1,5 @@
+Total: 27
+Hit: 4-7
+Window of the second slash: 3-27
+Second slash starts: 20
+IASA: 26

@@ -3,6 +3,9 @@ import config
 import time
 import os
 
+marthmoves=["bair","dair","dashattack","dsmash","fsmash","ftilt","grab","jab",
+"nair","upair","upsmash","uptilt"]
+
 def bot_login():
 	print("Logging in...")
 	r = praw.Reddit(username = config.username,
@@ -17,6 +20,13 @@ def run_bot(r, commentsReplied):
 	for comment in r.subreddit('test').comments(limit=2):
 		if "marf" in comment.body and comment.id not in commentsReplied and comment.author != r.user.me():
 			print("String w/ 'marf' found in comment " + comment.id)
+			for move in marthmoves:
+				if move in comment.body and comment.id not in commentsReplied and comment.author != r.user.me():
+					print("move found")
+					file=open("marth/"(move+".txt"),"r")
+					comment.reply(file.read())
+					file.close
+					break
 			#comment.reply("marfmina")
 			print("Replied to comment " + comment.id)
 			commentsReplied.append(comment.id)

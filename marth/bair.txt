@@ -1,0 +1,6 @@
+Total: 39
+Hit: 7-11
+IASA: 35
+Auto cancel: 32>
+Landlag: 24
+Lcanceled: 12
